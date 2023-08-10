@@ -1,0 +1,267 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+header {
+    width: 70%;
+}
+.header {
+    height: 100vh;
+    background:  url(./img/acces2.jpg); 
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+}
+.header .max-width {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.max-width .logo {
+    color: #111;
+    padding: 40px;
+    font-size: 30px;
+    font-weight: 600;
+}
+.max-width .main ul {
+    list-style: none;
+    display: flex;
+}
+.max-width .main li a {
+    text-decoration: none;
+    font-weight: 3580;
+    margin-right: 15px;
+    padding-left: 20px;
+    color: #111;
+    font-size: 20px;
+    padding: 10px;
+    font-family: 'Dancing Script';
+}
+.header .max-width .col ul {
+    float: right;
+    margin-right: -300px;
+    list-style: none;
+    display: flex;
+    transition: 1s;
+}
+.max-width .col li a {
+    text-decoration: none;
+    font-weight: 3580;
+    color: #111;
+    font-size: 20px;
+    padding: 20px;
+    transition: 1s;
+    font-family: 'Dancing Script';
+}
+.max-width .col li a:hover {
+    border-bottom: 1px solid #111;
+}
+.max-width .main li a:hover {
+    border-bottom: 1px solid #111;
+}
+.max-col {
+    float: right;
+    margin-right: -350px;
+}
+.max-col {
+    padding-top: 15%;
+}
+.max-col h3 {
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 30px;
+}
+.max-col h2 {
+    line-height: 40px;
+    font-size: 30px;
+    font-weight: 350;
+}
+.max-col p {
+    line-height: 50px;
+    font-weight: 350;
+}
+.max-col a {
+    color: #111;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 20px;
+    transition: 1s;
+    font-family: 'Dancing Script';
+}
+.max-col a:hover {
+    border-bottom: 1px solid #111;
+}
+
+@media (max-width: 1043px){
+    .header .max-col p{
+        font-size: 10px;
+    }
+}
+/* ---- Who are you----  */
+.course img {
+    padding-top: 50px; 
+    text-align: center;
+    margin-right: 20px;
+    width: 95%;
+    height: 300px;
+    position: relative;
+    object-fit: cover;
+    padding-left: 50px;
+}
+.course {
+    margin-bottom: 5%;
+    text-align: left;
+}
+.testimonials-col {
+    display: flex;
+    width: 100%;
+}
+.testimonials-col .Whose {
+    margin-left: 10px;
+}
+.testimonials-col .Whose h2 {
+    font-size: 25px;
+    font-weight: 600;
+    padding-top: 70%;
+    padding-right: 60px;
+    object-fit: cover;
+    font-family: 'Dancing Script';
+}
+.testimonials-col .Whose p {
+    font-weight: 300;
+    padding-top: 8%;
+    line-height: 25px;
+}
+.testimonials-col .Whose {
+    flex-basis: 31%;
+}
+.testimonials-col .Whose a {
+    color: #111;
+    font-size: 20px;
+    padding-bottom: 10%;
+    text-decoration: none;
+    font-family: 'Dancing Script';
+    transition: 3s;
+}
+.testimonials-col .Whose a:hover {
+    border-bottom: 1px solid #111;
+}
+/* ----models---- */
+.node {
+    margin-bottom: 30px;
+    position: relative;
+    padding-left: 40px;
+}
+.node img {
+    width: 100%;
+    padding-top: 10%;
+    height: 480px;
+    object-fit: cover;
+}
+.over-flow .menu {
+    display: flex;
+}
+.over-flow {
+    width: 100%;
+}
+.flow {
+    display: flex;
+    text-align: center;
+}
+.model h2 {
+    font-size: 40px;
+    padding-left: 4%;
+    font-weight: 380;
+    font-family: 'Dancing Script';
+}
+.grap {
+    padding-left: 7%;
+    font-weight: 400;
+    font-size: 15px;
+}
+.grap h1 {
+    color: aqua;
+    font-weight: 400;
+    font-size: 20px;
+    font-family: 'Dancing Script';
+}
+.different {
+    padding-left: 20%;
+    font-weight: 400;
+    font-size: 15px;
+}
+.different h1 {
+    font-weight: 400;
+    color: aqua;
+    font-size: 20px;
+    font-family: 'Dancing Script';
+}
+.mode {
+    padding-left: 20%;
+    font-weight: 400;
+    font-size: 15px;
+}
+.mode h1 {
+    font-weight: 400;
+    color: aqua;
+    font-size: 20px;
+    font-family: 'Dancing Script';
+}
+/* -----Packaging-----  */
+.packaging img {
+    width: 104%;
+    height: 420px;
+    object-fit: cover;
+    padding-left: 8%;
+}
+.mantain {
+    display: flex;
+    margin-top: 60px;
+    padding-left: 8px;
+}
+.packaging h2 {
+    font-size: 20px;
+    font-weight: 550;
+    padding-left: 10%;
+    padding-top: 3%;
+    transition: 1s;
+    font-family: 'Dancing Script';
+}
+.packaging p {
+    font-size: 15px;
+    padding-left: 10%;
+    padding-top: 5px;
+}
+.packaging h2:hover {
+    border-bottom: 1px solid #111;
+    text-indent: 30%;
+    
+}
+/* ----About us---- */
+.branding {
+    display: flex;
+    padding: 50px;
+    justify-content: space-between;
+}
+.info-text {
+    padding: 20px;
+    padding-top: 10%;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+}
+.info-text h1 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 35px;
+    font-family: 'Dancing Script';
+}
+.info-text p {
+    font-weight: 400;
+}
+.pra li {
+    list-style: none;
+}
